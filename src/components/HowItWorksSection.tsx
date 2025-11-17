@@ -15,7 +15,7 @@ const icons = [Wrench, Shield, Wallet];
 
 export const HowItWorksSection = ({ translations }: HowItWorksSectionProps) => {
   return (
-    <section id="how-it-works" className="py-20 bg-gradient-to-b from-muted to-background">
+    <section id="how-it-works" className="py-20 bg-gradient-to-b from-muted to-background relative z-10">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-secondary drop-shadow-lg">
           {translations.title}

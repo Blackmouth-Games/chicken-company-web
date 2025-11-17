@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-t from-muted via-background to-transparent py-16 border-t-4 border-primary/10 overflow-hidden">
+    <footer className="relative bg-gradient-to-t from-muted via-background to-transparent py-16 border-t-4 border-primary/10 overflow-hidden z-10">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center gap-8">

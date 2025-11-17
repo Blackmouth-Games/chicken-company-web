@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { FloatingParticles } from "./FloatingParticles";
 import chickenBg from "@/assets/chicken-bg.png";
 import logoChicken from "@/assets/logo-chicken-company.png";
 
@@ -18,14 +19,19 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
     <section 
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
-      style={{
-        backgroundImage: `url(${chickenBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-sky-blue/60 via-sky-blue/40 to-background/80" />
+      <div 
+        className="fixed inset-0 z-0"
+        style={{
+          backgroundImage: `url(${chickenBg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+        }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-sky-blue/60 via-sky-blue/40 to-background/80 z-0" />
+      <FloatingParticles />
       
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-5xl mx-auto space-y-8">
@@ -52,7 +58,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             {translations.subTagline}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
+          <div className="flex justify-center items-center pt-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
             <Button 
               size="lg"
               className="group relative text-2xl px-12 py-8 rounded-full bg-primary hover:bg-golden-dark text-primary-foreground font-black uppercase shadow-[0_10px_40px_rgba(251,191,36,0.6)] hover:shadow-[0_20px_60px_rgba(251,191,36,0.8)] transition-all duration-500 hover:scale-110 border-4 border-farm-brown overflow-hidden"
@@ -61,9 +67,6 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
               <span className="relative z-10">{translations.playFree}</span>
               <div className="absolute inset-0 bg-gradient-to-r from-golden-dark via-primary to-golden-dark opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-[shimmer_2s_infinite]" />
             </Button>
-            <p className="text-base text-foreground/90 font-bold bg-card/40 backdrop-blur-sm px-4 py-2 rounded-full border border-primary/20">
-              {translations.playFreeNote}
-            </p>
           </div>
         </div>
       </div>
