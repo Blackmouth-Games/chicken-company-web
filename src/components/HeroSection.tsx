@@ -52,7 +52,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             </span>
           </h1>
           
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground animate-in fade-in slide-in-from-bottom duration-1000 delay-400 drop-shadow-lg px-4">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white animate-in fade-in slide-in-from-bottom duration-1000 delay-400 drop-shadow-lg px-4">
             {translations.subTagline}
           </p>
           

@@ -1,4 +1,4 @@
-import { Twitter, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Footer = () => {
@@ -12,7 +12,13 @@ export const Footer = () => {
             className="w-8 h-8 sm:w-9 sm:h-9 rounded-full hover:bg-background/10 transition-all duration-300"
             onClick={() => window.open('https://x.com/ChickenCo_io', '_blank')}
           >
-            <Twitter className="w-4 h-4 text-foreground/70 hover:text-foreground transition-colors duration-300" />
+            <svg
+              viewBox="0 0 24 24"
+              className="w-4 h-4 text-white hover:text-white/80 transition-colors duration-300"
+              fill="currentColor"
+            >
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
           </Button>
           <Button
             size="icon"
@@ -20,10 +26,10 @@ export const Footer = () => {
             className="w-8 h-8 sm:w-9 sm:h-9 rounded-full hover:bg-background/10 transition-all duration-300"
             onClick={() => window.open('https://t.me/ChickenCo_io', '_blank')}
           >
-            <Send className="w-4 h-4 text-foreground/70 hover:text-foreground transition-colors duration-300" />
+            <Send className="w-4 h-4 text-white hover:text-white/80 transition-colors duration-300" />
           </Button>
           
-          <p className="text-foreground/70 text-xs sm:text-sm ml-2">
+          <p className="text-white text-xs sm:text-sm ml-2">
             © 2025 Chicken Company. All rights reserved.
           </p>
         </div>
