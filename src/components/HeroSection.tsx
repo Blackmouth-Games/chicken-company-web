@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { FloatingParticles } from "./FloatingParticles";
 import chickenBg from "@/assets/chicken-bg.png";
 import logoChicken from "@/assets/logo-chicken-company.png";
 
@@ -18,7 +17,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
   return (
     <section 
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 mb-16 sm:mb-24"
     >
       <div 
         className="fixed inset-0 z-0"
@@ -31,7 +30,6 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
         }}
       />
       <div className="fixed inset-0 bg-gradient-to-b from-farm-brown/40 via-farm-brown/20 to-farm-brown/60 z-0" />
-      <FloatingParticles />
       
       <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center">
         <div className="max-w-5xl mx-auto space-y-6 sm:space-y-8">
