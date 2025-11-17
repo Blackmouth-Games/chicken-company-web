@@ -23,11 +23,11 @@ interface LanguageSelectorProps {
 export const LanguageSelector = ({ currentLanguage, onLanguageChange }: LanguageSelectorProps) => {
   return (
     <Select value={currentLanguage} onValueChange={onLanguageChange}>
-      <SelectTrigger className="w-[100px] bg-card/80 backdrop-blur-sm border-primary/20 hover:bg-card/90 transition-colors">
+      <SelectTrigger className="w-[110px] bg-card/60 backdrop-blur-lg border border-primary/10 hover:bg-card/80 transition-all duration-300 shadow-xl hover:shadow-primary/20 hover:scale-105">
         <Globe className="w-4 h-4 mr-1" />
         <SelectValue />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="backdrop-blur-lg bg-card/95">
         {languages.map((lang) => (
           <SelectItem key={lang.code} value={lang.code}>
             {lang.label} - {lang.name}
