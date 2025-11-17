@@ -15,7 +15,7 @@ const icons = [Building2, Coins, TrendingUp];
 
 export const HowToPlaySection = ({ translations }: HowToPlaySectionProps) => {
   return (
-    <section id="how-to-play" className="py-20 bg-gradient-to-b from-background to-muted relative z-10">
+    <section id="how-to-play" className="py-20 relative z-10">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-primary drop-shadow-lg">
           {translations.title}
