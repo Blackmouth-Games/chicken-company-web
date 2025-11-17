@@ -17,7 +17,7 @@ const icons = [Building2, Coins, TrendingUp];
 export const HowToPlaySection = ({ translations }: HowToPlaySectionProps) => {
   return (
     <section id="how-to-play" className="py-24 sm:py-32 relative z-10 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-primary/5 to-background/50 backdrop-blur-sm z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-farm-brown/40 via-farm-brown/20 to-farm-brown/40 backdrop-blur-sm z-0" />
       <FloatingParticles />
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-12 sm:mb-16 text-primary drop-shadow-lg">
