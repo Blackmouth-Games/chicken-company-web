@@ -106,6 +106,22 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        fall: {
+          "0%": { 
+            transform: "translateY(0) rotate(0deg)",
+            opacity: "0"
+          },
+          "10%": {
+            opacity: "0.3"
+          },
+          "90%": {
+            opacity: "0.3"
+          },
+          "100%": { 
+            transform: "translateY(110vh) rotate(360deg)",
+            opacity: "0"
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -113,6 +129,7 @@ export default {
         shimmer: "shimmer 2s infinite",
         float: "float 3s ease-in-out infinite",
         bounce: "bounce 1s ease-in-out infinite",
+        fall: "fall linear infinite",
       },
     },
   },

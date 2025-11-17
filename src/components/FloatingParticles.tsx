@@ -16,17 +16,17 @@ export const FloatingParticles = () => {
   useEffect(() => {
     const generateParticles = () => {
       const newParticles: Particle[] = [];
-      const particleCount = 20;
+      const particleCount = 25;
       const types: Array<"egg" | "feather" | "coin"> = ["egg", "feather", "coin"];
 
       for (let i = 0; i < particleCount; i++) {
         newParticles.push({
           id: i,
           x: Math.random() * 100,
-          y: Math.random() * 100,
-          size: Math.random() * 20 + 15,
-          duration: Math.random() * 10 + 15,
-          delay: Math.random() * 5,
+          y: -10 - Math.random() * 20, // Start above viewport
+          size: Math.random() * 15 + 10,
+          duration: Math.random() * 8 + 12, // Fall duration
+          delay: Math.random() * 10,
           type: types[Math.floor(Math.random() * types.length)],
         });
       }
@@ -50,17 +50,18 @@ export const FloatingParticles = () => {
   };
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
       {particles.map((particle) => (
         <div
           key={particle.id}
-          className="absolute animate-float opacity-40"
+          className="absolute animate-[fall_linear_infinite]"
           style={{
             left: `${particle.x}%`,
             top: `${particle.y}%`,
             fontSize: `${particle.size}px`,
             animationDuration: `${particle.duration}s`,
             animationDelay: `${particle.delay}s`,
+            opacity: 0.3,
           }}
         >
           {getParticleEmoji(particle.type)}
