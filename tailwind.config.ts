@@ -57,6 +57,7 @@ export default {
         },
         farm: {
           brown: "hsl(var(--farm-brown))",
+          "light-brown": "hsl(var(--farm-light-brown))",
           orange: "hsl(var(--farm-orange))",
           green: "hsl(var(--grass-green))",
         },
