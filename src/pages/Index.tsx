@@ -1,12 +1,49 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import { Header } from "@/components/Header";
+import { HeroSection } from "@/components/HeroSection";
+import { HowToPlaySection } from "@/components/HowToPlaySection";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
+import { Footer } from "@/components/Footer";
+import { translations, LanguageCode } from "@/lib/translations";
 
 const Index = () => {
+  const [currentLanguage, setCurrentLanguage] = useState<LanguageCode>("en");
+  
+  const t = translations[currentLanguage];
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header 
+        currentLanguage={currentLanguage}
+        onLanguageChange={(lang) => setCurrentLanguage(lang as LanguageCode)}
+      />
+      
+      <HeroSection 
+        translations={{
+          eggProtocol: t.eggProtocol,
+          mainTagline: t.mainTagline,
+          subTagline: t.subTagline,
+          playFree: t.playFree,
+          stakeStart: t.stakeStart,
+          playFreeNote: t.playFreeNote,
+        }}
+      />
+      
+      <HowToPlaySection 
+        translations={{
+          title: t.howToPlay,
+          steps: t.howToPlaySteps,
+        }}
+      />
+      
+      <HowItWorksSection 
+        translations={{
+          title: t.howItWorks,
+          steps: t.howItWorksSteps,
+        }}
+      />
+      
+      <Footer />
     </div>
   );
 };
