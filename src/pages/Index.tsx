@@ -4,7 +4,6 @@ import { HeroSection } from "@/components/HeroSection";
 import { HowToPlaySection } from "@/components/HowToPlaySection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { Footer } from "@/components/Footer";
-import { WalkingChickens } from "@/components/WalkingChickens";
 import { translations, LanguageCode } from "@/lib/translations";
 
 const Index = () => {
@@ -45,8 +44,6 @@ const Index = () => {
       />
       
       <Footer />
-      
-      <WalkingChickens />
     </div>
   );
 };

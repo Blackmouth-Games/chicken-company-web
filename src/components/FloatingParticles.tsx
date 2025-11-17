@@ -16,7 +16,7 @@ export const FloatingParticles = () => {
   useEffect(() => {
     const generateParticles = () => {
       const newParticles: Particle[] = [];
-      const particleCount = 25;
+      const particleCount = 10;
       const types: Array<"egg" | "feather" | "coin"> = ["egg", "feather", "coin"];
 
       for (let i = 0; i < particleCount; i++) {
