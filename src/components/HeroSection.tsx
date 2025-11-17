@@ -61,11 +61,10 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
           <div className="flex justify-center items-center pt-6 sm:pt-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
             <Button 
               size="lg"
-              className="group relative text-lg sm:text-xl md:text-2xl px-8 sm:px-10 md:px-12 py-6 sm:py-7 md:py-8 rounded-full bg-primary hover:bg-golden-dark text-primary-foreground font-black uppercase shadow-[0_10px_40px_rgba(251,191,36,0.6)] hover:shadow-[0_20px_60px_rgba(251,191,36,0.8)] transition-all duration-500 hover:scale-110 border-2 sm:border-4 border-farm-brown overflow-hidden"
+              className="group relative text-base sm:text-lg md:text-xl px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
               onClick={() => window.open('https://t.me/ChickenCompany_bot', '_blank')}
             >
               <span className="relative z-10">{translations.playFree}</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-golden-dark via-primary to-golden-dark opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-[shimmer_2s_infinite]" />
             </Button>
           </div>
         </div>
