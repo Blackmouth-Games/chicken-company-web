@@ -50,6 +50,7 @@ export const WalkingChickens = () => {
             width: `${chicken.size}px`,
             height: `${chicken.size}px`,
             animationDelay: `${chicken.delay}s`,
+            transform: 'scaleX(-1)', // Flip horizontal
           }}
         >
           <div className="relative w-full h-full animate-bounce">
