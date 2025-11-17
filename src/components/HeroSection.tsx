@@ -46,7 +46,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             <div className="absolute inset-0 blur-xl bg-primary/30 -z-10 animate-pulse" />
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-card leading-tight animate-in fade-in slide-in-from-bottom duration-1000 delay-300 drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)] [text-shadow:_4px_4px_12px_rgb(0_0_0_/_80%)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-card leading-tight animate-in fade-in slide-in-from-bottom duration-1000 delay-300 drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)] [text-shadow:_4px_4px_12px_rgb(0_0_0_/_80%)]">
             <span className="inline-block hover:scale-110 transition-transform duration-300">
               {translations.mainTagline}
             </span>
