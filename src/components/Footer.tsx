@@ -30,7 +30,7 @@ export const Footer = () => {
           </Button>
           
           <p className="text-white text-xs sm:text-sm ml-2">
-            © 2025 Chicken Company. All rights reserved.
+            © {new Date().getFullYear()} Blackmouthgames. All rights reserved.
           </p>
         </div>
       </div>
