@@ -56,7 +56,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             {translations.subTagline}
           </p>
           
-          <div className="flex justify-center items-center pt-6 sm:pt-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
+          <div className="flex flex-col items-center gap-2 pt-6 sm:pt-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
             <Button 
               size="lg"
               className="group relative text-base sm:text-lg md:text-xl px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
@@ -64,6 +64,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             >
               <span className="relative z-10">{translations.playFree}</span>
             </Button>
+            <p className="text-white/60 text-xs sm:text-sm">stake to play</p>
           </div>
         </div>
       </div>
