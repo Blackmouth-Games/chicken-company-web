@@ -38,7 +38,7 @@ export const HowToPlaySection = ({ translations }: HowToPlaySectionProps) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
                 <CardContent className="relative p-6 sm:p-8 text-center space-y-4 sm:space-y-6">
                   <div className="relative">
-                    <div className={`${index === 2 ? 'w-40 h-40 sm:w-52 sm:h-52' : 'w-32 h-32 sm:w-40 sm:h-40'} mx-auto flex items-center justify-center transition-all duration-500 group-hover:scale-110`}>
+                    <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto flex items-center justify-center transition-all duration-500 group-hover:scale-110">
                       <img 
                         src={stepImage} 
                         alt={step.title}
