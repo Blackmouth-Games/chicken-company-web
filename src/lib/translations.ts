@@ -24,8 +24,8 @@ export const translations = {
     howItWorks: "How it Works",
     howItWorksSteps: [
       {
-        title: "Build & Manage",
-        description: "Build and expand your poultry farm by adding facilities, tools, and upgrades. Combine elements strategically to boost production and create a fully efficient industry."
+        title: "Manage",
+        description: "Expand your poultry farm by adding facilities, tools, and upgrades. Combine elements strategically to boost production and create a fully efficient industry."
       },
       {
         title: "Stake Safely",
