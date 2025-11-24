@@ -17,7 +17,7 @@ export const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
               <img src={solanaLogo} alt="Solana" className="w-5 h-5 sm:w-6 sm:h-6 opacity-60 hover:opacity-100 transition-opacity" />
             </div>
             <div className="p-2 sm:p-2.5 transition-all duration-300">
-              <img src={tonLogo} alt="TON" className="w-4 h-4 sm:w-5 sm:h-5 opacity-60 hover:opacity-100 transition-opacity" />
+              <img src={tonLogo} alt="TON" className="w-3.5 h-3.5 sm:w-[18px] sm:h-[18px] opacity-60 hover:opacity-100 transition-opacity" />
             </div>
           </div>
 
