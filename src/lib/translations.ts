@@ -42,28 +42,28 @@ export const translations = {
     mainTagline: "Tus gallinas trabajan. Tú ganas",
     subTagline: "Construye tu imperio de granja de gallinas",
     playFree: "Juega Gratis",
-    stakeStart: "Apuesta para Comenzar",
+    stakeStart: "Apuesta para Jugar",
     playFreeNote: "Comienza a jugar ahora",
     howToPlay: "Cómo Jugar",
     howToPlaySteps: [
       {
-        title: "Crea Tu Granja",
+        title: "Construye",
         description: "Comienza desde cero y construye tu propia granja de gallinas. Cría gallinas, expande tus gallineros y prepárate para hacer crecer tu imperio de huevos."
       },
       {
-        title: "Apuesta SOL o TON",
+        title: "Apuesta",
         description: "Apuesta SOL o TON para impulsar tu granja. Tus tokens apostados alimentan la producción de huevos y generan recompensas reales."
       },
       {
-        title: "Mejora y Optimiza",
+        title: "Mejora",
         description: "¡Mejora tu granja y optimiza tu rendimiento; cuanto más inteligentemente juegues, más ganarás!"
       }
     ],
     howItWorks: "Cómo Funciona",
     howItWorksSteps: [
       {
-        title: "Construye y Administra",
-        description: "Agrega y combina diferentes instalaciones para construir una granja totalmente productiva."
+        title: "Administra",
+        description: "Expande tu granja avícola agregando instalaciones, herramientas y mejoras. Combina elementos estratégicamente para impulsar la producción y crear una industria totalmente eficiente."
       },
       {
         title: "Apuesta de Forma Segura",
@@ -80,28 +80,28 @@ export const translations = {
     mainTagline: "आपकी मुर्गियां काम करती हैं। आप लाभ कमाते हैं",
     subTagline: "अपना चिकन फार्म साम्राज्य बनाएं",
     playFree: "मुफ्त खेलें",
-    stakeStart: "शुरू करने के लिए दांव लगाएं",
+    stakeStart: "खेलने के लिए दांव लगाएं",
     playFreeNote: "अभी खेलना शुरू करें",
     howToPlay: "कैसे खेलें",
     howToPlaySteps: [
       {
-        title: "अपना फार्म बनाएं",
+        title: "निर्माण करें",
         description: "शुरुआत से शुरू करें और अपना खुद का चिकन फार्म बनाएं। मुर्गियां पालें, अपने कॉप्स का विस्तार करें, और अपने अंडे के साम्राज्य को बढ़ाने के लिए तैयार हों।"
       },
       {
-        title: "SOL या TON दांव लगाएं",
+        title: "दांव लगाएं",
         description: "अपने फार्म को शक्ति देने के लिए SOL या TON दांव लगाएं। आपके दांव लगाए गए टोकन अंडे का उत्पादन करते हैं और वास्तविक पुरस्कार उत्पन्न करते हैं।"
       },
       {
-        title: "सुधार और अनुकूलन",
+        title: "अपग्रेड करें",
         description: "अपने फार्म को अपग्रेड करें और अपनी उपज को अनुकूलित करें; जितना स्मार्ट आप खेलेंगे, उतना अधिक आप कमाएंगे!"
       }
     ],
     howItWorks: "यह कैसे काम करता है",
     howItWorksSteps: [
       {
-        title: "निर्माण और प्रबंधन",
-        description: "पूरी तरह से उत्पादक फार्म बनाने के लिए विभिन्न सुविधाओं को जोड़ें और संयोजित करें।"
+        title: "प्रबंधन करें",
+        description: "सुविधाओं, उपकरणों और उन्नयन को जोड़कर अपने पोल्ट्री फार्म का विस्तार करें। उत्पादन को बढ़ावा देने और एक पूर्ण कुशल उद्योग बनाने के लिए तत्वों को रणनीतिक रूप से संयोजित करें।"
       },
       {
         title: "सुरक्षित रूप से दांव लगाएं",
@@ -118,28 +118,28 @@ export const translations = {
     mainTagline: "Vos poulets travaillent. Vous profitez",
     subTagline: "Construisez votre empire de ferme de poulets",
     playFree: "Jouez Gratuitement",
-    stakeStart: "Misez pour Commencer",
+    stakeStart: "Misez pour Jouer",
     playFreeNote: "Commencez à jouer maintenant",
     howToPlay: "Comment Jouer",
     howToPlaySteps: [
       {
-        title: "Créez Votre Ferme",
+        title: "Construire",
         description: "Partez de zéro et construisez votre propre ferme de poulets. Élevez des poulets, agrandissez vos poulaillers et préparez-vous à développer votre empire d'œufs."
       },
       {
-        title: "Misez SOL ou TON",
+        title: "Miser",
         description: "Misez SOL ou TON pour alimenter votre ferme. Vos tokens misés alimentent la production d'œufs et génèrent de vraies récompenses."
       },
       {
-        title: "Améliorez et Optimisez",
+        title: "Améliorer",
         description: "Améliorez votre ferme et optimisez votre rendement ; plus vous jouez intelligemment, plus vous gagnez!"
       }
     ],
     howItWorks: "Comment Ça Marche",
     howItWorksSteps: [
       {
-        title: "Construire et Gérer",
-        description: "Ajoutez et combinez différentes installations pour construire une ferme entièrement productive."
+        title: "Gérer",
+        description: "Développez votre ferme avicole en ajoutant des installations, des outils et des améliorations. Combinez les éléments de manière stratégique pour stimuler la production et créer une industrie entièrement efficace."
       },
       {
         title: "Misez en Toute Sécurité",
@@ -156,28 +156,28 @@ export const translations = {
     mainTagline: "Suas galinhas trabalham. Você lucra",
     subTagline: "Construa seu império de fazenda de galinhas",
     playFree: "Jogue Grátis",
-    stakeStart: "Aposte para Começar",
+    stakeStart: "Aposte para Jogar",
     playFreeNote: "Comece a jogar agora",
     howToPlay: "Como Jogar",
     howToPlaySteps: [
       {
-        title: "Crie Sua Fazenda",
+        title: "Construir",
         description: "Comece do zero e construa sua própria fazenda de galinhas. Crie galinhas, expanda seus galinheiros e prepare-se para expandir seu império de ovos."
       },
       {
-        title: "Aposte SOL ou TON",
+        title: "Apostar",
         description: "Aposte SOL ou TON para alimentar sua fazenda. Seus tokens apostados alimentam a produção de ovos e geram recompensas reais."
       },
       {
-        title: "Melhore e Otimize",
+        title: "Melhorar",
         description: "Atualize sua fazenda e otimize seu rendimento; quanto mais inteligente você jogar, mais você ganha!"
       }
     ],
     howItWorks: "Como Funciona",
     howItWorksSteps: [
       {
-        title: "Construir e Gerenciar",
-        description: "Adicione e combine diferentes instalações para construir uma fazenda totalmente produtiva."
+        title: "Gerenciar",
+        description: "Expanda sua fazenda avícola adicionando instalações, ferramentas e melhorias. Combine elementos estrategicamente para impulsionar a produção e criar uma indústria totalmente eficiente."
       },
       {
         title: "Aposte com Segurança",
