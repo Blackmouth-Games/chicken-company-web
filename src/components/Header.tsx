@@ -12,7 +12,7 @@ export const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
     <header className="fixed top-0 left-0 right-0 z-50 pointer-events-none">
       <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 sm:gap-3 pointer-events-auto">
+          <div className="flex items-center gap-1 pointer-events-auto">
             <div className="p-2 sm:p-2.5 transition-all duration-300">
               <img src={solanaLogo} alt="Solana" className="w-8 h-8 sm:w-10 sm:h-10 opacity-90 hover:opacity-100 transition-opacity" />
             </div>
