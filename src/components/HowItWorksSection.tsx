@@ -1,6 +1,8 @@
-import { Wrench, Shield, Wallet } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { FloatingParticles } from "./FloatingParticles";
+import buildAndManageImg from "@/assets/build-and-manage.png";
+import stakeSafelyImg from "@/assets/stake-safely.png";
+import earnWithdrawImg from "@/assets/earn-withdraw.png";
 
 interface HowItWorksSectionProps {
   translations: {
@@ -12,7 +14,7 @@ interface HowItWorksSectionProps {
   };
 }
 
-const icons = [Wrench, Shield, Wallet];
+const images = [buildAndManageImg, stakeSafelyImg, earnWithdrawImg];
 
 export const HowItWorksSection = ({ translations }: HowItWorksSectionProps) => {
   return (
@@ -26,7 +28,7 @@ export const HowItWorksSection = ({ translations }: HowItWorksSectionProps) => {
         
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {translations.steps.map((step, index) => {
-            const Icon = icons[index];
+            const stepImage = images[index];
             return (
               <Card 
                 key={index}
@@ -36,11 +38,12 @@ export const HowItWorksSection = ({ translations }: HowItWorksSectionProps) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
                 <CardContent className="relative p-6 sm:p-8 text-center space-y-4 sm:space-y-6">
                   <div className="relative">
-                    <div className="w-20 h-20 sm:w-24 sm:h-24 mx-auto bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center shadow-2xl group-hover:shadow-secondary/50 transition-all duration-500 group-hover:scale-110 group-hover:-rotate-6">
-                      <Icon className="w-10 h-10 sm:w-12 sm:h-12 text-secondary-foreground" />
-                    </div>
-                    <div className="absolute -bottom-2 sm:-bottom-3 left-1/2 -translate-x-1/2 w-12 h-12 sm:w-14 sm:h-14 bg-primary rounded-full flex items-center justify-center shadow-xl border-2 sm:border-4 border-background group-hover:scale-110 transition-transform duration-300">
-                      <span className="text-xl sm:text-2xl font-black text-primary-foreground">{index + 1}</span>
+                    <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto flex items-center justify-center transition-all duration-500 group-hover:scale-110">
+                      <img 
+                        src={stepImage} 
+                        alt={step.title}
+                        className="w-full h-full object-contain drop-shadow-2xl"
+                      />
                     </div>
                   </div>
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-foreground pt-4 group-hover:text-secondary transition-colors duration-300">{step.title}</h3>
