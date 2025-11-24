@@ -4,28 +4,28 @@ export const translations = {
     mainTagline: "Your chickens work. You profit",
     subTagline: "Build your chicken farm empire",
     playFree: "Play for Free",
-    stakeStart: "Stake to Start",
+    stakeStart: "Stake to Play",
     playFreeNote: "Start playing now",
     howToPlay: "How to Play",
     howToPlaySteps: [
       {
-        title: "Create Your Farm",
+        title: "Build",
         description: "Start from scratch and build your own chicken farm. Raise chickens, expand your coops, and prepare to grow your egg empire."
       },
       {
-        title: "Stake SOL or TON",
+        title: "Stake",
         description: "Stake SOL or TON to power your farm. Your staked tokens fuel egg production and generate real rewards."
       },
       {
-        title: "Improve & Optimize",
+        title: "Upgrade",
         description: "Upgrade your farm and optimize your yield; the smarter you play, the more you earn!"
       }
     ],
     howItWorks: "How it Works",
     howItWorksSteps: [
       {
-        title: "Build and Manage",
-        description: "Add and combine different facilities to build a fully productive farm."
+        title: "Build & Manage",
+        description: "Build and expand your poultry farm by adding facilities, tools, and upgrades. Combine elements strategically to boost production and create a fully efficient industry."
       },
       {
         title: "Stake Safely",
