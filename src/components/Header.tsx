@@ -14,10 +14,10 @@ export const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-3 pointer-events-auto">
             <div className="p-2 sm:p-2.5 transition-all duration-300">
-              <img src={solanaLogo} alt="Solana" className="w-7 h-7 sm:w-8.5 sm:h-8.5 opacity-90 hover:opacity-100 transition-opacity" />
+              <img src={solanaLogo} alt="Solana" className="w-8 h-8 sm:w-10 sm:h-10 opacity-90 hover:opacity-100 transition-opacity" />
             </div>
             <div className="p-2 sm:p-2.5 transition-all duration-300">
-              <img src={tonLogo} alt="TON" className="w-5 h-5 sm:w-[25px] sm:h-[25px] opacity-90 hover:opacity-100 transition-opacity" />
+              <img src={tonLogo} alt="TON" className="w-8 h-8 sm:w-10 sm:h-10 opacity-90 hover:opacity-100 transition-opacity" />
             </div>
           </div>
 
