@@ -26,7 +26,6 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'fixed',
         }}
       />
       <div className="fixed inset-0 bg-gradient-to-b from-farm-brown/40 via-farm-brown/20 to-farm-brown/60 z-0" />
@@ -60,7 +59,7 @@ export const HeroSection = ({ translations }: HeroSectionProps) => {
             <Button 
               size="lg"
               className="group relative text-base sm:text-lg md:text-xl px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
-              onClick={() => window.open('https://t.me/ChickenCompany_bot', '_blank')}
+              onClick={() => window.open('https://t.me/ChickenCo_io', '_blank')}
             >
               <span className="relative z-10">{translations.playFree}</span>
             </Button>
