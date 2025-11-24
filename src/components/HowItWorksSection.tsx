@@ -38,7 +38,7 @@ export const HowItWorksSection = ({ translations }: HowItWorksSectionProps) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
                 <CardContent className="relative p-6 sm:p-8 text-center space-y-4 sm:space-y-6">
                   <div className="relative">
-                    <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto flex items-center justify-center transition-all duration-500 group-hover:scale-110">
+                    <div className="w-42 h-42 sm:w-52 sm:h-52 mx-auto flex items-center justify-center transition-all duration-500 group-hover:scale-110">
                       <img 
                         src={stepImage} 
                         alt={step.title}
