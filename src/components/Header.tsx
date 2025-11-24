@@ -13,10 +13,10 @@ export const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
       <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-3 pointer-events-auto">
-            <div className="bg-background/20 backdrop-blur-sm rounded-full p-2 sm:p-2.5 transition-all duration-300 hover:bg-background/30">
+            <div className="p-2 sm:p-2.5 transition-all duration-300">
               <img src={solanaLogo} alt="Solana" className="w-5 h-5 sm:w-6 sm:h-6 opacity-60 hover:opacity-100 transition-opacity" />
             </div>
-            <div className="bg-background/20 backdrop-blur-sm rounded-full p-2 sm:p-2.5 transition-all duration-300 hover:bg-background/30">
+            <div className="p-2 sm:p-2.5 transition-all duration-300">
               <img src={tonLogo} alt="TON" className="w-5 h-5 sm:w-6 sm:h-6 opacity-60 hover:opacity-100 transition-opacity" />
             </div>
           </div>
